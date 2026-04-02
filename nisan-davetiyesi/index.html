@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umay & Efe - Nişan Davetiyesi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader" class="loader-wrapper">
+        <div class="loader-content">
+            <span class="initials">U<span class="and-symbol">&</span>E</span>
+        </div>
+    </div>
+
+    <div class="invitation-container" id="main-content" style="opacity: 0;">
+        
+        <!-- Hero Section -->
+        <header class="section hero" id="home">
+            <div class="hero-content reveal">
+                <div class="top-ornament">🌿</div>
+                <p class="subtitle">BİRLİKTE YENİ BİR HAYATA</p>
+                <h1 class="names">Umay <span class="and-symbol">&</span> Efe</h1>
+                <p class="date">18 NİSAN 2026</p>
+            </div>
+            <div class="scroll-indicator">
+                <div class="line"></div>
+            </div>
+        </header>
+
+        <!-- Message Section -->
+        <section class="section message">
+            <div class="content reveal">
+                <p class="greeting">Hayatımızı birleştirmeye karar verdiğimiz bu güzel yolda...</p>
+                <div class="text-divider"></div>
+                <p class="text">Birbirimize duyduğumuz derin sevgiyi, nişan yüzüklerimizle taçlandırıyoruz.<br>Bu özel günümüzde siz değerli ailelerimizi ve dostlarımızı da aramızda görmekten onur duyarız.</p>
+                <div class="parents">
+                    <div class="parent">
+                        <span class="family">Çakır Ailesi</span>
+                    </div>
+                    <div class="parent">
+                        <span class="family">Akbulut Ailesi</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Details Section -->
+        <section class="section details">
+            <div class="content reveal">
+                <h2 class="section-title">Tarih <span class="and-symbol">&</span> Mekan</h2>
+                <div class="event-cards">
+                    <div class="card">
+                        <p class="date-big">18</p>
+                        <p class="month-year">NİSAN 2026<br>CUMARTESİ, 17:00</p>
+                        <div class="card-divider"></div>
+                        <p class="location">
+                            <b style="font-family: var(--font-heading); font-size: 1.4rem;">Adres</b><br>
+                            Akyazı Mah. Akyazı Seyran Sok. Dış Kapı: 28,<br> 61040 Ortahisar/Trabzon
+                        </p>
+                        <a href="https://maps.google.com/?q=Akyazı+Mah.+Akyazı+Seyran+Sok.+Dış+Kapı:+28,+61040+Ortahisar/Trabzon" target="_blank" class="btn-outline">Haritayı Aç</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Countdown Section -->
+        <section class="section countdown-sec">
+            <div class="content reveal">
+                <h2 class="section-title">Geri Sayım</h2>
+                <div id="countdown" class="countdown-timer">
+                    <div class="time-box">
+                        <span id="days">00</span>
+                        <p>Gün</p>
+                    </div>
+                    <div class="time-box">
+                        <span id="hours">00</span>
+                        <p>Saat</p>
+                    </div>
+                    <div class="time-box">
+                        <span id="minutes">00</span>
+                        <p>Dakika</p>
+                    </div>
+                    <div class="time-box">
+                        <span id="seconds">00</span>
+                        <p>Saniye</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- QR Location Section -->
+        <section class="section rsvp">
+            <div class="content reveal">
+                <h2 class="section-title">Konum</h2>
+                <p class="text" style="max-width: 500px; margin: 0 auto 30px;">Tören alanına kolayca ulaşmak için aşağıdaki QR kodu akıllı telefonunuzun kamerası ile okutabilirsiniz.</p>
+                <div class="qr-code-wrapper">
+                    <!-- Google maps search API encoded to QR code -->
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=https%3A%2F%2Fmaps.google.com%2F%3Fq%3DAkyaz%25C4%25B1%2BMah.%2BAkyaz%25C4%25B1%2BSeyran%2BSok.%2BD%25C4%25B1%25C5%259F%2BKap%25C4%25B1%3A%2B28%2C%2B61040%2BOrtahisar%2FTrabzon&color=26382a&bgcolor=fcfbf8" alt="Konum QR Kodu">
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-ornament">🌿</div>
+            <p class="made-with">Umay <span class="and-symbol">&</span> Efe</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
